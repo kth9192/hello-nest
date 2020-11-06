@@ -13,7 +13,7 @@ import {
   Req,
   Res,
 } from '@nestjs/common';
-import { CreateMovieDto } from 'src/movies/dto/create-movie.dto';
+import { CreateMovieDto } from '../movies/dto/create-movie.dto';
 import { UpdateMovieDto } from '../movies/dto/update-movie.dto';
 
 @Controller('movies')
